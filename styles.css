@@ -30,7 +30,7 @@ a{text-decoration:none;color:inherit}
 .btn-outline{background:transparent;color:var(--white)}
 .btn-outline:hover{background:rgba(209,173,97,.12)}
 .hero{position:relative;min-height:690px;display:flex;align-items:center;overflow:hidden}
-.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,22,41,.97) 0%,rgba(6,22,41,.84) 32%,rgba(6,22,41,.28) 72%,rgba(6,22,41,.12) 100%),url('/hero-van.jpg') center/cover no-repeat;transform:scale(1.01)}
+.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,22,41,.97) 0%,rgba(6,22,41,.84) 32%,rgba(6,22,41,.28) 72%,rgba(6,22,41,.12) 100%),url('hero-van.jpg') center/cover no-repeat;transform:scale(1.01)}
 .hero-content{position:relative;z-index:2;padding:92px 0 105px;max-width:690px}
 .eyebrow{font-size:12px;letter-spacing:2.1px;font-weight:800;color:var(--gold);text-transform:uppercase}
 .hero h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(48px,7vw,82px);line-height:.98;margin:18px 0 24px;letter-spacing:-1.6px}
@@ -108,7 +108,7 @@ textarea{min-height:130px;resize:vertical}
   .nav{height:70px}
   .nav-logo{width:170px}
   .hero{min-height:610px}
-  .hero:before{background:linear-gradient(180deg,rgba(6,22,41,.96) 0%,rgba(6,22,41,.7) 55%,rgba(6,22,41,.68) 100%),url('assets/hero-van.jpg') 62% center/cover no-repeat}
+  .hero:before{background:linear-gradient(180deg,rgba(6,22,41,.96) 0%,rgba(6,22,41,.7) 55%,rgba(6,22,41,.68) 100%),url('hero-van.jpg') 62% center/cover no-repeat}
   .hero-content{padding:76px 0 80px}
   .hero h1{font-size:48px}
   .hero p{font-size:17px}
@@ -120,3 +120,13 @@ textarea{min-height:130px;resize:vertical}
   .footer-inner{flex-direction:column;align-items:flex-start}
   .footer-links{flex-wrap:wrap}
 }
+
+
+.legal-page{background:#f7f5f0;color:#0b2038;min-height:100vh}
+.legal-page .legal-wrap{width:min(900px,92vw);margin:0 auto;padding:54px 0 80px}
+.legal-page h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(40px,6vw,64px);line-height:1.05;margin:0 0 28px}
+.legal-page h2{font-family:Georgia,"Times New Roman",serif;font-size:30px;margin:38px 0 12px}
+.legal-page p,.legal-page li{font-size:16px;line-height:1.7}
+.legal-page a{color:#8b6b2e;text-decoration:underline}
+.legal-note{background:#fff;border-left:4px solid var(--gold);padding:18px 20px;margin:24px 0}
+.legal-back{display:inline-block;margin-bottom:34px;text-decoration:none!important;font-weight:800}
