@@ -30,7 +30,7 @@ a{text-decoration:none;color:inherit}
 .btn-outline{background:transparent;color:var(--white)}
 .btn-outline:hover{background:rgba(209,173,97,.12)}
 .hero{position:relative;min-height:690px;display:flex;align-items:center;overflow:hidden}
-.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,22,41,.97) 0%,rgba(6,22,41,.84) 32%,rgba(6,22,41,.28) 72%,rgba(6,22,41,.12) 100%),url('assets/hero-van.jpg') center/cover no-repeat;transform:scale(1.01)}
+.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,22,41,.97) 0%,rgba(6,22,41,.84) 32%,rgba(6,22,41,.28) 72%,rgba(6,22,41,.12) 100%),url('/hero-van.jpg') center/cover no-repeat;transform:scale(1.01)}
 .hero-content{position:relative;z-index:2;padding:92px 0 105px;max-width:690px}
 .eyebrow{font-size:12px;letter-spacing:2.1px;font-weight:800;color:var(--gold);text-transform:uppercase}
 .hero h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(48px,7vw,82px);line-height:.98;margin:18px 0 24px;letter-spacing:-1.6px}
